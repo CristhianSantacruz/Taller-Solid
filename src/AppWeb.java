@@ -1,4 +1,4 @@
-public class AppWeb {
+public class AppWeb implements CoennectData{
     LogIn logIn;
     LogInAdmin logInAdmin;
     MySQL mySQL;
@@ -8,8 +8,6 @@ public class AppWeb {
     public AppWeb (LogInAdmin logInAdmin, MySQL mySQL) {
         // Logic
     }
-    public void connectToDatabase (MySQL mySQL) {
-        // Logic
-    }
+    
 }
 
