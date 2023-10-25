@@ -1,4 +1,4 @@
-public class LogIn implements Logger{
+public class LogIn{
     
 	//Principio de responsabilidad unica 
 	//La clase Insert hace la responsabilidad de insertar el usuario en la base de datos
