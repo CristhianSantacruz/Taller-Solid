@@ -1,11 +1,14 @@
-public class LogIn {
-    public void log (User user) {
+public class LogIn implements Logger{
+    
+	//Principio de responsabilidad unica 
+	//La clase Insert hace la responsabilidad de insertar el usuario en la base de datos
+	
+	public void log (User user)  {
+    	
         System.out.println("Has access to the website");
-        insertUserInDatabase(user);
+        InsertUserInDatabase.insertUserInDatabase(user);
         // Logic
     }
-    public void insertUserInDatabase(User user){
-        // Insert user in database
-    }
+   
 }
 
