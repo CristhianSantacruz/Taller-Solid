@@ -1,33 +1,26 @@
-import Interfaces.Delete;
-import Interfaces.Insert;
-import Interfaces.Select;
-import Interfaces.Update;
 
-public class MySQL implements Insert,Delete,Update,Select{
+public class MySQL implements Database{
 
-	@Override
+	
+	public void insert(String statement) {
+		// TODO Auto-generated method stub
+		
+	}	
 	public void select(String statement) {
 		// TODO Auto-generated method stub
 		
+	}	
+	public void delate(String statement) {
+		// TODO Auto-generated method stub
+		
 	}
-
-	@Override
+	
 	public void update(String statement) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void delete(String statement) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void insert(String statement) {
-		// TODO Auto-generated method stub
-		
-	}
+	
     
 }
 
